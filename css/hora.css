@@ -144,3 +144,20 @@ body{
 .contenedor .form .btn-submit:hover{
     background: #f29718;
 }
+
+.lista{
+    width: 150px;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    background: rgb(48, 156, 170);
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.lista:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background: orange;
+    color: white;
+}
