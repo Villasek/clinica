@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="css/hora.css">
+</head>
+
+<header class="header">
+    <img src="images/logo.png" id="logo" alt="">
+
+    <nav class="navbar">
+        <a href="#"></a>
+        <a href="index.html">Home</a>
+        <a href="#">Mis Horas</a>
+    </nav>
+
+    <div class="icons">
+        <div id="menubar" class="fas fa-bars"></div>
+        <!-- <a href="/login.html">Iniciar Sesión</a> -->
+    </div>
+</header>
+<body>
+    <div class="contenedor">
+        <form action="" class="form" >
+            <div class="form-header">
+                <h1 class="form-tittle">Agendar Hora</h1>
+                <br>
+            </div>
+            
+            <label for="rut" class="form-label">Rut:</label>
+            <input type="text" class="form-input" placeholder="Ingrese rut del paciente">
+
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-input" placeholder="Ingrese Nombre">
+
+            <label for="apellido" class="form-label">Apellidos:</label>
+            <input type="text" class="form-input" placeholder="Ingrese Apellidos">
+
+            <label for="Especialidad">Especialidad</label>
+            <select name="especialidad" id="especialidad" class="form-input">
+                    <option value="1">Seleccione</option>
+                    <option value="2">Medicina General</option>
+                    <option value="3">Kinesiología</option>
+                    <option value="4">Oftalmología</option>
+                    <option value="5">Otorrinolaringología</option>
+                </select>
+            <label for="medicos">Medicos</label>
+            <select name="sexo" id="especialidad" class="form-input" >
+                    <option value="1">Seleccione</option>
+                    <option value="2">Juan Rodriguez</option>
+                    <option value="3">Matias Parraguirre</option>
+            </select>
+
+            <label for="fec-cons" class="form-label">Fecha</label>
+            <input type="date" class="form-input">
+
+            <label for="correo" class="form-label">Hora:</label>
+            <input type="time" class="form-input" placeholder="Ingrese su Correo">
+            
+            <a href="/index.html"><input  class="btn-submit" value="Enviar solicitud"></a>
+        </form>
+    </div>
+
+    
+</body>
+</html>

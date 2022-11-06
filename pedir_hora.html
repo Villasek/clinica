@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <link rel="stylesheet" href="css/hora.css">
+</head>
+
+<header class="header">
+    <img src="images/logo.png" id="logo" alt="">
+
+    <nav class="navbar">
+        <a href="/admin.html">Administrador</a>
+        <a href="/admin.html">Administrar</a>
+        <a href="/registro.html">Horas confirmadas</a>
+        <a href="/informe.html">Informes</a>
+        
+    </nav>
+
+    <div class="icons">
+        <div id="menubar" class="fas fa-bars"></div>
+        <a href="/index.html">Cerrar Sesión</a>
+    </div>
+</header>
+<body>
+    <div class="contenedor">
+        <form action="" class="form" >
+            <div class="form-header">
+                <h1 class="form-tittle">Confirmar Hora</h1>
+                <br>
+            </div>
+            
+            <label for="rut" class="form-label" >Rut:</label>
+            <input type="text" class="form-input"  placeholder="Ingrese rut del paciente">
+
+            <label for="Especialidad">Especialidad</label>
+            <select name="especialidad" id="especialidad" class="form-input">
+                    <option value="1">Seleccione</option>
+                    <option value="2">Medicina General</option>
+                    <option value="3">Kinesiología</option>
+                    <option value="4">Oftalmología</option>
+                    <option value="5">Otorrinolaringología</option>
+                </select>
+            <label for="Medico">Medico</label>
+            <select name="Medico" id="Medico" class="form-input" >
+                    <option value="1">Seleccione</option>
+                    <option value="2">Gabriel Velasquez</option>
+                    <option value="3">Joaquin Gonzalez </option>
+            </select>
+
+            <label for="fec-cons" class="form-label">Fecha</label>
+            <input type="date" class="form-input">
+
+            <label for="correo" class="form-label">Hora:</label>
+            <input type="time" class="form-input" placeholder="Ingrese su Correo">
+
+            <label for="tipo-pago">Tipo de pago</label>
+            <select name="tipo-pago" id="tipo-pago" class="form-input" >
+                    <option value="1">Seleccione</option>
+                    <option value="2">Efectivo</option>
+                    <option value="2">Debito</option>
+                    <option value="2">Credito </option>
+            </select>
+            <label for="pago" class="form-label">Pago:</label>
+            <input type="text" class="form-input" placeholder="Ingrese pago de la consulta">
+            
+            <button class="btn-submit"  onclick="myFunction()">Siguiente</button>
+            
+        </form>
+    </div>
+
+
+<script>
+function myFunction() {
+alert("Hora confirmada");
+}
+</script>
+
+
+    
+</body>
+</html>
